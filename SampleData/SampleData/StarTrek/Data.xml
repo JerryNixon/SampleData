@@ -1,0 +1,486 @@
+﻿<StarTrek>
+
+  <Show Name="Star Trek: Original" Hero="Hero.jpg" Image="Ship.jpg" Code="TOS">
+    <Character Name="Captain Kirk" Actor="William Shatner" Image="Kirk.jpg" />
+    <Character Name="Spock" Actor="Leonard Nimoy" Image="Spock.jpg" />
+    <Character Name="'Bones' McCoy" Actor="DeForest Kelly" Image="Bones.jpg" />
+  </Show>
+  <Show Name="Star Trek: Animated" Hero="Hero.jpg" Image="Ship.jpg" Code="ANI">
+    <Character Name="Captain Kirk" Actor="William Shatner" Image="Kirk.jpg" />
+    <Character Name="Spock" Actor="Leonard Nimoy" Image="Spock.jpg" />
+    <Character Name="'Bones' McCoy" Actor="DeForest Kelly" Image="Bones.jpg" />
+  </Show>
+  <!--<Show Name="Star Trek: 2009" Hero="Hero.jpg" Image="Ship.jpg" Code="NEW">
+    <Character Name="Captain Kirk" Actor="Chris Pine" Image="Kirk.jpg" />
+    <Character Name="Spock" Actor="First Last" Image="Spock.jpg" />
+    <Character Name="Dr. Leonard 'Bones' McCoy" Actor="First Last" Image="Bones.jpg" />
+  </Show>-->
+  <Show Name="Star Trek: Next Generation" Hero="Hero.jpg" Image="Ship.jpg" Code="TNG">
+    <Character Name="Captain Picard" Actor="Patrick Stewart" Image="Picard.jpg" />
+    <Character Name="William Riker" Actor="Johnathan Frakes" Image="Riker.jpg" />
+    <Character Name="Data" Actor="Brent Spiner" Image="Data.jpg" />
+  </Show>
+  <Show Name="Star Trek: Deep Space 9" Hero="Hero.jpg" Image="Ship.jpg" Code="DS9">
+    <Character Name="Captain Sisko" Actor="First Last" Image="Sisko.jpg" />
+    <Character Name="Kira Nerys" Actor="First Last" Image="Kira.jpg" />
+    <Character Name="Jadzia Dax" Actor="First Last" Image="Dax.jpg" />
+  </Show>
+
+  <!-- episode list -->
+  <Episode Code="TOS" Season="01" Episode="01" Ordinal="001" Title="The Man Trap" Stardate="1513.1" />
+  <Episode Code="TOS" Season="01" Episode="02" Ordinal="002" Title="Charlie X" Stardate="1533.6" />
+  <Episode Code="TOS" Season="01" Episode="03" Ordinal="003" Title="Where No Man Has Gone Before" Stardate="1312.9" />
+  <Episode Code="TOS" Season="01" Episode="04" Ordinal="004" Title="The Naked Time" Stardate="1704.2" />
+  <Episode Code="TOS" Season="01" Episode="05" Ordinal="005" Title="The Enemy Within" Stardate="1672.1" />
+  <Episode Code="TOS" Season="01" Episode="06" Ordinal="006" Title="Mudd's Women" Stardate="1329.8" />
+  <Episode Code="TOS" Season="01" Episode="07" Ordinal="007" Title="What Are Little Girls Made Of?" Stardate="2712.4" />
+  <Episode Code="TOS" Season="01" Episode="08" Ordinal="008" Title="Miri" Stardate="2713.5" />
+  <Episode Code="TOS" Season="01" Episode="09" Ordinal="009" Title="Dagger of the Mind" Stardate="2715.1" />
+  <Episode Code="TOS" Season="01" Episode="10" Ordinal="010" Title="The Corbomite Maneuver" Stardate="1512.2" />
+  <Episode Code="TOS" Season="01" Episode="11" Ordinal="011" Title="The Menagerie, Part I" Stardate="3012.4" />
+  <Episode Code="TOS" Season="01" Episode="12" Ordinal="012" Title="The Menagerie, Part II" Stardate="3013.1" />
+  <Episode Code="TOS" Season="01" Episode="13" Ordinal="013" Title="The Conscience of the King" Stardate="2817.6" />
+  <Episode Code="TOS" Season="01" Episode="14" Ordinal="014" Title="Balance of Terror" Stardate="1709.2" />
+  <Episode Code="TOS" Season="01" Episode="15" Ordinal="015" Title="Shore Leave" Stardate="3025.3" />
+  <Episode Code="TOS" Season="01" Episode="16" Ordinal="016" Title="The Galileo Seven" Stardate="2821.5" />
+  <Episode Code="TOS" Season="01" Episode="17" Ordinal="017" Title="The Squire of Gothos" Stardate="2124.5" />
+  <Episode Code="TOS" Season="01" Episode="18" Ordinal="018" Title="Arena" Stardate="3045.6" />
+  <Episode Code="TOS" Season="01" Episode="19" Ordinal="019" Title="Tomorrow Is Yesterday" Stardate="3113.2" />
+  <Episode Code="TOS" Season="01" Episode="20" Ordinal="020" Title="Court Martial" Stardate="2947.3" />
+  <Episode Code="TOS" Season="01" Episode="21" Ordinal="021" Title="The Return of the Archons" Stardate="3156.2" />
+  <Episode Code="TOS" Season="01" Episode="22" Ordinal="022" Title="Space Seed" Stardate="3141.9" />
+  <Episode Code="TOS" Season="01" Episode="23" Ordinal="023" Title="A Taste of Armageddon" Stardate="3192.1" />
+  <Episode Code="TOS" Season="01" Episode="24" Ordinal="024" Title="This Side of Paradise" Stardate="3417.3–3417.7" />
+  <Episode Code="TOS" Season="01" Episode="25" Ordinal="025" Title="The Devil in the Dark" Stardate="3196.1" />
+  <Episode Code="TOS" Season="01" Episode="26" Ordinal="026" Title="Errand of Mercy" Stardate="3198.4" />
+  <Episode Code="TOS" Season="01" Episode="27" Ordinal="027" Title="The Alternative Factor" Stardate="3087.6" />
+  <Episode Code="TOS" Season="01" Episode="28" Ordinal="028" Title="The City on the Edge of Forever" Stardate="3134" />
+  <Episode Code="TOS" Season="01" Episode="29" Ordinal="029" Title="Operation: Annihilate!" Stardate="3287.2" />
+  <Episode Code="TOS" Season="02" Episode="01" Ordinal="030" Title="Amok Time" Stardate="3372.7" />
+  <Episode Code="TOS" Season="02" Episode="02" Ordinal="031" Title="Who Mourns for Adonais?" Stardate="3468.1" />
+  <Episode Code="TOS" Season="02" Episode="03" Ordinal="032" Title="The Changeling" Stardate="3541.9" />
+  <Episode Code="TOS" Season="02" Episode="04" Ordinal="033" Title="Mirror, Mirror" Stardate="Unknown" />
+  <Episode Code="TOS" Season="02" Episode="05" Ordinal="034" Title="The Apple" Stardate="3715.3" />
+  <Episode Code="TOS" Season="02" Episode="06" Ordinal="035" Title="The Doomsday Machine" Stardate="4202.9" />
+  <Episode Code="TOS" Season="02" Episode="07" Ordinal="036" Title="Catspaw" Stardate="3018.2" />
+  <Episode Code="TOS" Season="02" Episode="08" Ordinal="037" Title="I, Mudd" Stardate="4513.3" />
+  <Episode Code="TOS" Season="02" Episode="09" Ordinal="038" Title="Metamorphosis" Stardate="3219.4" />
+  <Episode Code="TOS" Season="02" Episode="10" Ordinal="039" Title="Journey to Babel" Stardate="3842.3" />
+  <Episode Code="TOS" Season="02" Episode="11" Ordinal="040" Title="Friday's Child" Stardate="3497.2" />
+  <Episode Code="TOS" Season="02" Episode="12" Ordinal="041" Title="The Deadly Years" Stardate="3478.2" />
+  <Episode Code="TOS" Season="02" Episode="13" Ordinal="042" Title="Obsession" Stardate="3619.2" />
+  <Episode Code="TOS" Season="02" Episode="14" Ordinal="043" Title="Wolf in the Fold" Stardate="3614.9" />
+  <Episode Code="TOS" Season="02" Episode="15" Ordinal="044" Title="The Trouble With Tribbles" Stardate="4523.3" />
+  <Episode Code="TOS" Season="02" Episode="16" Ordinal="045" Title="The Gamesters of Triskelion" Stardate="3211.7" />
+  <Episode Code="TOS" Season="02" Episode="17" Ordinal="046" Title="A Piece of the Action" Stardate="4598" />
+  <Episode Code="TOS" Season="02" Episode="18" Ordinal="047" Title="The Immunity Syndrome" Stardate="4307.1" />
+  <Episode Code="TOS" Season="02" Episode="19" Ordinal="048" Title="A Private Little War" Stardate="4211.4" />
+  <Episode Code="TOS" Season="02" Episode="20" Ordinal="049" Title="Return to Tomorrow" Stardate="4768.3" />
+  <Episode Code="TOS" Season="02" Episode="21" Ordinal="050" Title="Patterns of Force" Stardate="2534" />
+  <Episode Code="TOS" Season="02" Episode="22" Ordinal="051" Title="By Any Other Name" Stardate="4657.5" />
+  <Episode Code="TOS" Season="02" Episode="23" Ordinal="052" Title="The Omega Glory" Stardate="Unknown" />
+  <Episode Code="TOS" Season="02" Episode="24" Ordinal="053" Title="The Ultimate Computer" Stardate="4729.4" />
+  <Episode Code="TOS" Season="02" Episode="25" Ordinal="054" Title="Bread and Circuses" Stardate="4040.7" />
+  <Episode Code="TOS" Season="02" Episode="26" Ordinal="055" Title="Assignment: Earth" Stardate="Unknown" />
+  <Episode Code="TOS" Season="03" Episode="01" Ordinal="056" Title="Spock's Brain" Stardate="5431.4" />
+  <Episode Code="TOS" Season="03" Episode="02" Ordinal="057" Title="The Enterprise Incident" Stardate="5027.3" />
+  <Episode Code="TOS" Season="03" Episode="03" Ordinal="058" Title="The Paradise Syndrome" Stardate="4842.6" />
+  <Episode Code="TOS" Season="03" Episode="04" Ordinal="059" Title="And the Children Shall Lead" Stardate="5029.5" />
+  <Episode Code="TOS" Season="03" Episode="05" Ordinal="060" Title="Is There in Truth No Beauty?" Stardate="5630.7" />
+  <Episode Code="TOS" Season="03" Episode="06" Ordinal="061" Title="Spectre of the Gun" Stardate="4385.3" />
+  <Episode Code="TOS" Season="03" Episode="07" Ordinal="062" Title="Day of the Dove" Stardate="Unknown" />
+  <Episode Code="TOS" Season="03" Episode="08" Ordinal="063" Title="For the World Is Hollow and I Have Touched the Sky" Stardate="5476.3" />
+  <Episode Code="TOS" Season="03" Episode="09" Ordinal="064" Title="The Tholian Web" Stardate="5693.2" />
+  <Episode Code="TOS" Season="03" Episode="10" Ordinal="065" Title="Plato's Stepchildren" Stardate="5784.2" />
+  <Episode Code="TOS" Season="03" Episode="11" Ordinal="066" Title="Wink of an Eye" Stardate="5710.5" />
+  <Episode Code="TOS" Season="03" Episode="12" Ordinal="067" Title="The Empath" Stardate="5121.5" />
+  <Episode Code="TOS" Season="03" Episode="13" Ordinal="068" Title="Elaan of Troyius" Stardate="4372.5" />
+  <Episode Code="TOS" Season="03" Episode="14" Ordinal="069" Title="Whom Gods Destroy" Stardate="5718.3" />
+  <Episode Code="TOS" Season="03" Episode="15" Ordinal="070" Title="Let That Be Your Last Battlefield" Stardate="5730.2" />
+  <Episode Code="TOS" Season="03" Episode="16" Ordinal="071" Title="The Mark of Gideon" Stardate="5423.4" />
+  <Episode Code="TOS" Season="03" Episode="17" Ordinal="072" Title="That Which Survives" Stardate="Unknown" />
+  <Episode Code="TOS" Season="03" Episode="18" Ordinal="073" Title="The Lights of Zetar" Stardate="5725.3" />
+  <Episode Code="TOS" Season="03" Episode="19" Ordinal="074" Title="Requiem for Methuselah" Stardate="5843.7" />
+  <Episode Code="TOS" Season="03" Episode="20" Ordinal="075" Title="The Way to Eden" Stardate="5832.3" />
+  <Episode Code="TOS" Season="03" Episode="21" Ordinal="076" Title="The Cloud Minders" Stardate="5818.4" />
+  <Episode Code="TOS" Season="03" Episode="22" Ordinal="077" Title="The Savage Curtain" Stardate="5906.4" />
+  <Episode Code="TOS" Season="03" Episode="23" Ordinal="078" Title="All Our Yesterdays" Stardate="5943.7" />
+  <Episode Code="TOS" Season="03" Episode="24" Ordinal="079" Title="Turnabout Intruder" Stardate="5928.5" />
+  <Episode Code="ANI" Season="01" Episode="01" Ordinal="001" Title="Beyond the Farthest Star" Stardate="5521.3" />
+  <Episode Code="ANI" Season="01" Episode="02" Ordinal="002" Title="Yesteryear" Stardate="5373.4" />
+  <Episode Code="ANI" Season="01" Episode="03" Ordinal="003" Title="One of Our Planets Is Missing" Stardate="5371.3" />
+  <Episode Code="ANI" Season="01" Episode="04" Ordinal="004" Title="The Lorelei Signal" Stardate="5483.7" />
+  <Episode Code="ANI" Season="01" Episode="05" Ordinal="005" Title="More Tribbles, More Troubles" Stardate="5392.4" />
+  <Episode Code="ANI" Season="01" Episode="06" Ordinal="006" Title="The Survivor" Stardate="5143.3" />
+  <Episode Code="ANI" Season="01" Episode="07" Ordinal="007" Title="The Infinite Vulcan" Stardate="5554.4" />
+  <Episode Code="ANI" Season="01" Episode="08" Ordinal="008" Title="The Magicks of Megas-tu" Stardate="1254.4" />
+  <Episode Code="ANI" Season="01" Episode="09" Ordinal="009" Title="Once Upon a Planet" Stardate="5591.2" />
+  <Episode Code="ANI" Season="01" Episode="10" Ordinal="010" Title="Mudd's Passion" Stardate="4978.5" />
+  <Episode Code="ANI" Season="01" Episode="11" Ordinal="011" Title="The Terratin Incident" Stardate="5577.3" />
+  <Episode Code="ANI" Season="01" Episode="12" Ordinal="012" Title="The Time Trap" Stardate="5267.2" />
+  <Episode Code="ANI" Season="01" Episode="13" Ordinal="013" Title="The Ambergris Element" Stardate="5499.9" />
+  <Episode Code="ANI" Season="01" Episode="14" Ordinal="014" Title="The Slaver Weapon" Stardate="4187.3" />
+  <Episode Code="ANI" Season="01" Episode="15" Ordinal="015" Title="The Eye of the Beholder" Stardate="5501.2" />
+  <Episode Code="ANI" Season="01" Episode="16" Ordinal="016" Title="The Jihad" Stardate="5683.1" />
+  <Episode Code="ANI" Season="02" Episode="01" Ordinal="017" Title="The Pirates of Orion" Stardate="6334.1" />
+  <Episode Code="ANI" Season="02" Episode="02" Ordinal="018" Title="Bem" Stardate="7403.6" />
+  <Episode Code="ANI" Season="02" Episode="03" Ordinal="019" Title="The Practical Joker" Stardate="3183.3" />
+  <Episode Code="ANI" Season="02" Episode="04" Ordinal="020" Title="Albatross" Stardate="5275.6" />
+  <Episode Code="ANI" Season="02" Episode="05" Ordinal="021" Title="How Sharper Than a Serpent's Tooth" Stardate="6063.4" />
+  <Episode Code="ANI" Season="02" Episode="06" Ordinal="022" Title="The Counter-Clock Incident" Stardate="6770.3" />
+  <Episode Code="TNG" Season="01" Episode="01" Ordinal="001" Title="Encounter at Farpoint Part 1" Stardate="41153.7" />
+  <Episode Code="TNG" Season="01" Episode="02" Ordinal="002" Title="Encounter at Farpoint Part 2" Stardate="41153.7" />
+  <Episode Code="TNG" Season="01" Episode="03" Ordinal="003" Title="The Naked Now" Stardate="41209.2" />
+  <Episode Code="TNG" Season="01" Episode="04" Ordinal="004" Title="Code of Honor" Stardate="41235.25" />
+  <Episode Code="TNG" Season="01" Episode="05" Ordinal="005" Title="The Last Outpost" Stardate="41386.4" />
+  <Episode Code="TNG" Season="01" Episode="06" Ordinal="006" Title="Where No One Has Gone Before" Stardate="41263.1" />
+  <Episode Code="TNG" Season="01" Episode="07" Ordinal="007" Title="Lonely Among Us" Stardate="41249.3" />
+  <Episode Code="TNG" Season="01" Episode="08" Ordinal="008" Title="Justice" Stardate="41255.6" />
+  <Episode Code="TNG" Season="01" Episode="09" Ordinal="009" Title="The Battle" Stardate="41723.9" />
+  <Episode Code="TNG" Season="01" Episode="10" Ordinal="010" Title="Hide and Q" Stardate="41590.5" />
+  <Episode Code="TNG" Season="01" Episode="11" Ordinal="011" Title="Haven" Stardate="41294.5" />
+  <Episode Code="TNG" Season="01" Episode="12" Ordinal="012" Title="The Big Goodbye" Stardate="41997.7" />
+  <Episode Code="TNG" Season="01" Episode="13" Ordinal="013" Title="Datalore" Stardate="41242.4" />
+  <Episode Code="TNG" Season="01" Episode="14" Ordinal="014" Title="Angel One" Stardate="41636.9" />
+  <Episode Code="TNG" Season="01" Episode="15" Ordinal="015" Title="11001001" Stardate="41365.9" />
+  <Episode Code="TNG" Season="01" Episode="16" Ordinal="016" Title="Too Short a Season" Stardate="41309.5" />
+  <Episode Code="TNG" Season="01" Episode="17" Ordinal="017" Title="When the Bough Breaks" Stardate="41509.1" />
+  <Episode Code="TNG" Season="01" Episode="18" Ordinal="018" Title="Home Soil" Stardate="41463.9" />
+  <Episode Code="TNG" Season="01" Episode="19" Ordinal="019" Title="Coming of Age" Stardate="41416.2" />
+  <Episode Code="TNG" Season="01" Episode="20" Ordinal="020" Title="Heart of Glory" Stardate="41503.7" />
+  <Episode Code="TNG" Season="01" Episode="21" Ordinal="021" Title="The Arsenal of Freedom" Stardate="41798.2" />
+  <Episode Code="TNG" Season="01" Episode="22" Ordinal="022" Title="Symbiosis" Stardate="Unknown" />
+  <Episode Code="TNG" Season="01" Episode="23" Ordinal="023" Title="Skin of Evil" Stardate="41601.3" />
+  <Episode Code="TNG" Season="01" Episode="24" Ordinal="024" Title="We'll Always Have Paris" Stardate="41697.9" />
+  <Episode Code="TNG" Season="01" Episode="25" Ordinal="025" Title="Conspiracy" Stardate="41775.5" />
+  <Episode Code="TNG" Season="01" Episode="26" Ordinal="026" Title="The Neutral Zone" Stardate="41986" />
+  <Episode Code="TNG" Season="02" Episode="01" Ordinal="027" Title="The Child" Stardate="42073.1" />
+  <Episode Code="TNG" Season="02" Episode="02" Ordinal="028" Title="Where Silence Has Lease" Stardate="42193.6" />
+  <Episode Code="TNG" Season="02" Episode="03" Ordinal="029" Title="Elementary, Dear Data" Stardate="42286.3" />
+  <Episode Code="TNG" Season="02" Episode="04" Ordinal="030" Title="The Outrageous Okona" Stardate="42402.7" />
+  <Episode Code="TNG" Season="02" Episode="05" Ordinal="031" Title="Loud as a Whisper" Stardate="42477.2" />
+  <Episode Code="TNG" Season="02" Episode="06" Ordinal="032" Title="The Schizoid Man" Stardate="42437.5" />
+  <Episode Code="TNG" Season="02" Episode="07" Ordinal="033" Title="Unnatural Selection" Stardate="42494.8" />
+  <Episode Code="TNG" Season="02" Episode="08" Ordinal="034" Title="A Matter of Honor" Stardate="42506.5" />
+  <Episode Code="TNG" Season="02" Episode="09" Ordinal="035" Title="The Measure of a Man" Stardate="42523.7" />
+  <Episode Code="TNG" Season="02" Episode="10" Ordinal="036" Title="The Dauphin" Stardate="42568.8" />
+  <Episode Code="TNG" Season="02" Episode="11" Ordinal="037" Title="Contagion" Stardate="42609.1" />
+  <Episode Code="TNG" Season="02" Episode="12" Ordinal="038" Title="The Royale" Stardate="42625.4" />
+  <Episode Code="TNG" Season="02" Episode="13" Ordinal="039" Title="Time Squared" Stardate="42679.2" />
+  <Episode Code="TNG" Season="02" Episode="14" Ordinal="040" Title="The Icarus Factor" Stardate="42686.4" />
+  <Episode Code="TNG" Season="02" Episode="15" Ordinal="041" Title="Pen Pals" Stardate="42695.3" />
+  <Episode Code="TNG" Season="02" Episode="16" Ordinal="042" Title="Q Who" Stardate="42761.3" />
+  <Episode Code="TNG" Season="02" Episode="17" Ordinal="043" Title="Samaritan Snare" Stardate="42779.1" />
+  <Episode Code="TNG" Season="02" Episode="18" Ordinal="044" Title="Up the Long Ladder" Stardate="42823.2" />
+  <Episode Code="TNG" Season="02" Episode="19" Ordinal="045" Title="Manhunt" Stardate="42859.2" />
+  <Episode Code="TNG" Season="02" Episode="20" Ordinal="046" Title="The Emissary" Stardate="42901.3" />
+  <Episode Code="TNG" Season="02" Episode="21" Ordinal="047" Title="Peak Performance" Stardate="42923.4" />
+  <Episode Code="TNG" Season="02" Episode="22" Ordinal="048" Title="Shades of Gray" Stardate="42976.1" />
+  <Episode Code="TNG" Season="02" Episode="23" Ordinal="049" Title="Evolution" Stardate="43125.8" />
+  <Episode Code="TNG" Season="03" Episode="01" Ordinal="050" Title="The Ensigns of Command" Stardate="43133.3" />
+  <Episode Code="TNG" Season="03" Episode="02" Ordinal="051" Title="The Survivors" Stardate="43152.4" />
+  <Episode Code="TNG" Season="03" Episode="03" Ordinal="052" Title="Who Watches the Watchers" Stardate="43173.5" />
+  <Episode Code="TNG" Season="03" Episode="04" Ordinal="053" Title="The Bonding" Stardate="43198.7" />
+  <Episode Code="TNG" Season="03" Episode="05" Ordinal="054" Title="Booby Trap" Stardate="43205.6" />
+  <Episode Code="TNG" Season="03" Episode="06" Ordinal="055" Title="The Enemy" Stardate="43349.2" />
+  <Episode Code="TNG" Season="03" Episode="07" Ordinal="056" Title="The Price" Stardate="43385.6" />
+  <Episode Code="TNG" Season="03" Episode="08" Ordinal="057" Title="The Vengeance Factor" Stardate="43421.9" />
+  <Episode Code="TNG" Season="03" Episode="09" Ordinal="058" Title="The Defector" Stardate="43462.5" />
+  <Episode Code="TNG" Season="03" Episode="10" Ordinal="059" Title="The Hunted" Stardate="43489.2" />
+  <Episode Code="TNG" Season="03" Episode="11" Ordinal="060" Title="The High Ground" Stardate="43510.7" />
+  <Episode Code="TNG" Season="03" Episode="12" Ordinal="061" Title="Déjà Q" Stardate="43539.1" />
+  <Episode Code="TNG" Season="03" Episode="13" Ordinal="062" Title="A Matter of Perspective" Stardate="43610.4" />
+  <Episode Code="TNG" Season="03" Episode="14" Ordinal="063" Title="Yesterday's Enterprise" Stardate="43625.2" />
+  <Episode Code="TNG" Season="03" Episode="15" Ordinal="064" Title="The Offspring" Stardate="43657" />
+  <Episode Code="TNG" Season="03" Episode="16" Ordinal="065" Title="Sins of the Father" Stardate="43685.2" />
+  <Episode Code="TNG" Season="03" Episode="17" Ordinal="066" Title="Allegiance" Stardate="43714.1" />
+  <Episode Code="TNG" Season="03" Episode="18" Ordinal="067" Title="Captain's Holiday" Stardate="43745.2" />
+  <Episode Code="TNG" Season="03" Episode="19" Ordinal="068" Title="Tin Man" Stardate="43779.3" />
+  <Episode Code="TNG" Season="03" Episode="20" Ordinal="069" Title="Hollow Pursuits" Stardate="43807.4" />
+  <Episode Code="TNG" Season="03" Episode="21" Ordinal="070" Title="The Most Toys" Stardate="43872.2" />
+  <Episode Code="TNG" Season="03" Episode="22" Ordinal="071" Title="Sarek" Stardate="43917.4" />
+  <Episode Code="TNG" Season="03" Episode="23" Ordinal="072" Title="Ménage à Troi" Stardate="43930.7" />
+  <Episode Code="TNG" Season="03" Episode="24" Ordinal="073" Title="Transfigurations" Stardate="43957.2" />
+  <Episode Code="TNG" Season="03" Episode="25" Ordinal="074" Title="The Best of Both Worlds" Stardate="43989.1" />
+  <Episode Code="TNG" Season="04" Episode="01" Ordinal="075" Title="The Best of Both Worlds: Part II" Stardate="44001.4" />
+  <Episode Code="TNG" Season="04" Episode="02" Ordinal="076" Title="Family" Stardate="44012.3" />
+  <Episode Code="TNG" Season="04" Episode="03" Ordinal="077" Title="Brothers" Stardate="44085.7" />
+  <Episode Code="TNG" Season="04" Episode="04" Ordinal="078" Title="Suddenly Human" Stardate="44143.7" />
+  <Episode Code="TNG" Season="04" Episode="05" Ordinal="079" Title="Remember Me" Stardate="44161.2" />
+  <Episode Code="TNG" Season="04" Episode="06" Ordinal="080" Title="Legacy" Stardate="44215.2" />
+  <Episode Code="TNG" Season="04" Episode="07" Ordinal="081" Title="Reunion" Stardate="44246.3" />
+  <Episode Code="TNG" Season="04" Episode="08" Ordinal="082" Title="Future Imperfect" Stardate="44286.5" />
+  <Episode Code="TNG" Season="04" Episode="09" Ordinal="083" Title="Final Mission" Stardate="44307.3" />
+  <Episode Code="TNG" Season="04" Episode="10" Ordinal="084" Title="The Loss" Stardate="44356.9" />
+  <Episode Code="TNG" Season="04" Episode="11" Ordinal="085" Title="Data's Day" Stardate="44390.1" />
+  <Episode Code="TNG" Season="04" Episode="12" Ordinal="086" Title="The Wounded" Stardate="44429.6" />
+  <Episode Code="TNG" Season="04" Episode="13" Ordinal="087" Title="Devil's Due" Stardate="44474.5" />
+  <Episode Code="TNG" Season="04" Episode="14" Ordinal="088" Title="Clues" Stardate="44502.7" />
+  <Episode Code="TNG" Season="04" Episode="15" Ordinal="089" Title="First Contact" Stardate="44575.2" />
+  <Episode Code="TNG" Season="04" Episode="16" Ordinal="090" Title="Galaxy's Child" Stardate="44614.6" />
+  <Episode Code="TNG" Season="04" Episode="17" Ordinal="091" Title="Night Terrors" Stardate="44631.2" />
+  <Episode Code="TNG" Season="04" Episode="18" Ordinal="092" Title="Identity Crisis" Stardate="44664.5" />
+  <Episode Code="TNG" Season="04" Episode="19" Ordinal="093" Title="The Nth Degree" Stardate="44704.2" />
+  <Episode Code="TNG" Season="04" Episode="20" Ordinal="094" Title="Qpid" Stardate="44741.9" />
+  <Episode Code="TNG" Season="04" Episode="21" Ordinal="095" Title="The Drumhead" Stardate="44769.2" />
+  <Episode Code="TNG" Season="04" Episode="22" Ordinal="096" Title="Half a Life" Stardate="44805.3" />
+  <Episode Code="TNG" Season="04" Episode="23" Ordinal="097" Title="The Host" Stardate="44821.3" />
+  <Episode Code="TNG" Season="04" Episode="24" Ordinal="098" Title="The Mind's Eye" Stardate="44885.5" />
+  <Episode Code="TNG" Season="04" Episode="25" Ordinal="099" Title="In Theory" Stardate="44932.3" />
+  <Episode Code="TNG" Season="04" Episode="26" Ordinal="100" Title="Redemption I" Stardate="44995.3" />
+  <Episode Code="TNG" Season="05" Episode="01" Ordinal="101" Title="Redemption II" Stardate="45021.3" />
+  <Episode Code="TNG" Season="05" Episode="02" Ordinal="102" Title="Darmok" Stardate="45047.2" />
+  <Episode Code="TNG" Season="05" Episode="03" Ordinal="103" Title="Ensign Ro" Stardate="45076.3" />
+  <Episode Code="TNG" Season="05" Episode="04" Ordinal="104" Title="Silicon Avatar" Stardate="45122.3" />
+  <Episode Code="TNG" Season="05" Episode="05" Ordinal="105" Title="Disaster" Stardate="45156.1" />
+  <Episode Code="TNG" Season="05" Episode="06" Ordinal="106" Title="The Game" Stardate="45208.2" />
+  <Episode Code="TNG" Season="05" Episode="07" Ordinal="107" Title="Unification I" Stardate="45233.1" />
+  <Episode Code="TNG" Season="05" Episode="08" Ordinal="108" Title="Unification II" Stardate="45245.8" />
+  <Episode Code="TNG" Season="05" Episode="09" Ordinal="109" Title="A Matter of Time" Stardate="45349.1" />
+  <Episode Code="TNG" Season="05" Episode="10" Ordinal="110" Title="New Ground" Stardate="45376.3" />
+  <Episode Code="TNG" Season="05" Episode="11" Ordinal="111" Title="Hero Worship" Stardate="45397.3" />
+  <Episode Code="TNG" Season="05" Episode="12" Ordinal="112" Title="Violations" Stardate="45429.3" />
+  <Episode Code="TNG" Season="05" Episode="13" Ordinal="113" Title="The Masterpiece Society" Stardate="45470.1" />
+  <Episode Code="TNG" Season="05" Episode="14" Ordinal="114" Title="Conundrum" Stardate="45494.2" />
+  <Episode Code="TNG" Season="05" Episode="15" Ordinal="115" Title="Power Play" Stardate="45571.2" />
+  <Episode Code="TNG" Season="05" Episode="16" Ordinal="116" Title="Ethics" Stardate="45587.3" />
+  <Episode Code="TNG" Season="05" Episode="17" Ordinal="117" Title="The Outcast" Stardate="45614.6" />
+  <Episode Code="TNG" Season="05" Episode="18" Ordinal="118" Title="Cause and Effect" Stardate="45652.1" />
+  <Episode Code="TNG" Season="05" Episode="19" Ordinal="119" Title="The First Duty" Stardate="45703.9" />
+  <Episode Code="TNG" Season="05" Episode="20" Ordinal="120" Title="Cost of Living" Stardate="45733.6" />
+  <Episode Code="TNG" Season="05" Episode="21" Ordinal="121" Title="The Perfect Mate" Stardate="45761.3" />
+  <Episode Code="TNG" Season="05" Episode="22" Ordinal="122" Title="Imaginary Friend" Stardate="45852.1" />
+  <Episode Code="TNG" Season="05" Episode="23" Ordinal="123" Title="I, Borg" Stardate="45854.2" />
+  <Episode Code="TNG" Season="05" Episode="24" Ordinal="124" Title="The Next Phase" Stardate="45892.4" />
+  <Episode Code="TNG" Season="05" Episode="25" Ordinal="125" Title="The Inner Light" Stardate="45944.1" />
+  <Episode Code="TNG" Season="05" Episode="26" Ordinal="126" Title="Time's Arrow" Stardate="45959.1" />
+  <Episode Code="TNG" Season="06" Episode="01" Ordinal="127" Title="Time's Arrow, Part II" Stardate="46001.3" />
+  <Episode Code="TNG" Season="06" Episode="02" Ordinal="128" Title="Realm of Fear" Stardate="46041.1" />
+  <Episode Code="TNG" Season="06" Episode="03" Ordinal="129" Title="Man of the People" Stardate="46071.6" />
+  <Episode Code="TNG" Season="06" Episode="04" Ordinal="130" Title="Relics" Stardate="46125.3" />
+  <Episode Code="TNG" Season="06" Episode="05" Ordinal="131" Title="Schisms" Stardate="46154.2" />
+  <Episode Code="TNG" Season="06" Episode="06" Ordinal="132" Title="True Q" Stardate="46192.3" />
+  <Episode Code="TNG" Season="06" Episode="07" Ordinal="133" Title="Rascals" Stardate="46235.7" />
+  <Episode Code="TNG" Season="06" Episode="08" Ordinal="134" Title="A Fistful of Datas" Stardate="46271.5" />
+  <Episode Code="TNG" Season="06" Episode="09" Ordinal="135" Title="The Quality of Life" Stardate="46307.2" />
+  <Episode Code="TNG" Season="06" Episode="10" Ordinal="136" Title="Chain of Command, Part I" Stardate="46357.4" />
+  <Episode Code="TNG" Season="06" Episode="11" Ordinal="137" Title="Chain of Command, Part II" Stardate="46360.8" />
+  <Episode Code="TNG" Season="06" Episode="12" Ordinal="138" Title="Ship in a Bottle" Stardate="46424.1" />
+  <Episode Code="TNG" Season="06" Episode="13" Ordinal="139" Title="Aquiel" Stardate="46461.3" />
+  <Episode Code="TNG" Season="06" Episode="14" Ordinal="140" Title="Face of the Enemy" Stardate="46519.1" />
+  <Episode Code="TNG" Season="06" Episode="15" Ordinal="141" Title="Tapestry" Stardate="Unknown" />
+  <Episode Code="TNG" Season="06" Episode="16" Ordinal="142" Title="Birthright, Part I" Stardate="46578.4" />
+  <Episode Code="TNG" Season="06" Episode="17" Ordinal="143" Title="Birthright, Part II" Stardate="46579.2" />
+  <Episode Code="TNG" Season="06" Episode="18" Ordinal="144" Title="Starship Mine" Stardate="46682.4" />
+  <Episode Code="TNG" Season="06" Episode="19" Ordinal="145" Title="Lessons" Stardate="46693.1" />
+  <Episode Code="TNG" Season="06" Episode="20" Ordinal="146" Title="The Chase" Stardate="46731.5" />
+  <Episode Code="TNG" Season="06" Episode="21" Ordinal="147" Title="Frame of Mind" Stardate="46778.1" />
+  <Episode Code="TNG" Season="06" Episode="22" Ordinal="148" Title="Suspicions" Stardate="46830.1" />
+  <Episode Code="TNG" Season="06" Episode="23" Ordinal="149" Title="Rightful Heir" Stardate="46852.2" />
+  <Episode Code="TNG" Season="06" Episode="24" Ordinal="150" Title="Second Chances" Stardate="46915.2" />
+  <Episode Code="TNG" Season="06" Episode="25" Ordinal="151" Title="Timescape" Stardate="46944.2" />
+  <Episode Code="TNG" Season="06" Episode="26" Ordinal="152" Title="Descent" Stardate="46982.1" />
+  <Episode Code="TNG" Season="07" Episode="01" Ordinal="153" Title="Descent, Part II" Stardate="47025.4" />
+  <Episode Code="TNG" Season="07" Episode="02" Ordinal="154" Title="Liaisons" Stardate="Unknown" />
+  <Episode Code="TNG" Season="07" Episode="03" Ordinal="155" Title="Interface" Stardate="47215.5" />
+  <Episode Code="TNG" Season="07" Episode="04" Ordinal="156" Title="Gambit, Part I" Stardate="47135.2" />
+  <Episode Code="TNG" Season="07" Episode="05" Ordinal="157" Title="Gambit, Part II" Stardate="47160.1" />
+  <Episode Code="TNG" Season="07" Episode="06" Ordinal="158" Title="Phantasms" Stardate="47225.7" />
+  <Episode Code="TNG" Season="07" Episode="07" Ordinal="159" Title="Dark Page" Stardate="47254.1" />
+  <Episode Code="TNG" Season="07" Episode="08" Ordinal="160" Title="Attached" Stardate="47304.2" />
+  <Episode Code="TNG" Season="07" Episode="09" Ordinal="161" Title="Force of Nature" Stardate="47310.2" />
+  <Episode Code="TNG" Season="07" Episode="10" Ordinal="162" Title="Inheritance" Stardate="47410.2" />
+  <Episode Code="TNG" Season="07" Episode="11" Ordinal="163" Title="Parallels" Stardate="47391.2" />
+  <Episode Code="TNG" Season="07" Episode="12" Ordinal="164" Title="The Pegasus" Stardate="47457.1" />
+  <Episode Code="TNG" Season="07" Episode="13" Ordinal="165" Title="Homeward" Stardate="47423.9" />
+  <Episode Code="TNG" Season="07" Episode="14" Ordinal="166" Title="Sub Rosa" Stardate="Unknown" />
+  <Episode Code="TNG" Season="07" Episode="15" Ordinal="167" Title="Lower Decks" Stardate="47566.7" />
+  <Episode Code="TNG" Season="07" Episode="16" Ordinal="168" Title="Thine Own Self" Stardate="47611.2" />
+  <Episode Code="TNG" Season="07" Episode="17" Ordinal="169" Title="Masks" Stardate="47615.2" />
+  <Episode Code="TNG" Season="07" Episode="18" Ordinal="170" Title="Eye of the Beholder" Stardate="47622.1" />
+  <Episode Code="TNG" Season="07" Episode="19" Ordinal="171" Title="Genesis" Stardate="47653.2" />
+  <Episode Code="TNG" Season="07" Episode="20" Ordinal="172" Title="Journey's End" Stardate="47751.2" />
+  <Episode Code="TNG" Season="07" Episode="21" Ordinal="173" Title="Firstborn" Stardate="47779.4" />
+  <Episode Code="TNG" Season="07" Episode="22" Ordinal="174" Title="Bloodlines" Stardate="47829.1" />
+  <Episode Code="TNG" Season="07" Episode="23" Ordinal="175" Title="Emergence" Stardate="47869.2" />
+  <Episode Code="TNG" Season="07" Episode="24" Ordinal="176" Title="Preemptive Strike" Stardate="47941.7" />
+  <Episode Code="TNG" Season="07" Episode="25" Ordinal="177" Title="All Good Things… Part 1" Stardate="47988" />
+  <Episode Code="TNG" Season="07" Episode="26" Ordinal="178" Title="All Good Things… Part 2" Stardate="47988" />
+  <Episode Code="DS9" Season="01" Episode="01" Ordinal="001" Title="Emissary Part 1" Stardate="46379.1" />
+  <Episode Code="DS9" Season="01" Episode="02" Ordinal="002" Title="Emissary Part 2" Stardate="46379.1" />
+  <Episode Code="DS9" Season="01" Episode="03" Ordinal="003" Title="Past Prologue" Stardate="46397.3" />
+  <Episode Code="DS9" Season="01" Episode="04" Ordinal="004" Title="A Man Alone" Stardate="46421.5" />
+  <Episode Code="DS9" Season="01" Episode="05" Ordinal="005" Title="Babel" Stardate="46423.7" />
+  <Episode Code="DS9" Season="01" Episode="06" Ordinal="006" Title="Captive Pursuit" Stardate="46477.5" />
+  <Episode Code="DS9" Season="01" Episode="07" Ordinal="007" Title="Q-Less" Stardate="46531.2" />
+  <Episode Code="DS9" Season="01" Episode="08" Ordinal="008" Title="Dax" Stardate="46910.1" />
+  <Episode Code="DS9" Season="01" Episode="09" Ordinal="009" Title="The Passenger" Stardate="465570.8" />
+  <Episode Code="DS9" Season="01" Episode="10" Ordinal="010" Title="Move Along Home" Stardate="46612.4" />
+  <Episode Code="DS9" Season="01" Episode="11" Ordinal="011" Title="The Nagus" Stardate="46657" />
+  <Episode Code="DS9" Season="01" Episode="12" Ordinal="012" Title="Vortex" Stardate="46689.6" />
+  <Episode Code="DS9" Season="01" Episode="13" Ordinal="013" Title="Battle Lines" Stardate="46715.2" />
+  <Episode Code="DS9" Season="01" Episode="14" Ordinal="014" Title="The Storyteller" Stardate="46729.1" />
+  <Episode Code="DS9" Season="01" Episode="15" Ordinal="015" Title="Progress" Stardate="46844.3" />
+  <Episode Code="DS9" Season="01" Episode="16" Ordinal="016" Title="If Wishes Were Horses" Stardate="46853.2" />
+  <Episode Code="DS9" Season="01" Episode="17" Ordinal="017" Title="The Forsaken" Stardate="46925.1" />
+  <Episode Code="DS9" Season="01" Episode="18" Ordinal="018" Title="Dramatis Personae" Stardate="46922.3" />
+  <Episode Code="DS9" Season="01" Episode="19" Ordinal="019" Title="Duet" Stardate="46933.4" />
+  <Episode Code="DS9" Season="01" Episode="20" Ordinal="020" Title="In the Hands of the Prophets" Stardate="46951.7" />
+  <Episode Code="DS9" Season="02" Episode="01" Ordinal="021" Title="The Homecoming" Stardate="47101.2" />
+  <Episode Code="DS9" Season="02" Episode="02" Ordinal="022" Title="The Circle" Stardate="47125.7" />
+  <Episode Code="DS9" Season="02" Episode="03" Ordinal="023" Title="The Siege" Stardate="47143.9" />
+  <Episode Code="DS9" Season="02" Episode="04" Ordinal="024" Title="Invasive Procedures" Stardate="47182.1" />
+  <Episode Code="DS9" Season="02" Episode="05" Ordinal="025" Title="Cardassians" Stardate="47177.2" />
+  <Episode Code="DS9" Season="02" Episode="06" Ordinal="026" Title="Melora" Stardate="47229.1" />
+  <Episode Code="DS9" Season="02" Episode="07" Ordinal="027" Title="Rules of Acquisition" Stardate="47261.7" />
+  <Episode Code="DS9" Season="02" Episode="08" Ordinal="028" Title="Necessary Evil" Stardate="47282.5" />
+  <Episode Code="DS9" Season="02" Episode="09" Ordinal="029" Title="Second Sight" Stardate="47329.4" />
+  <Episode Code="DS9" Season="02" Episode="10" Ordinal="030" Title="Sanctuary" Stardate="47391.2" />
+  <Episode Code="DS9" Season="02" Episode="11" Ordinal="031" Title="Rivals" Stardate="47349.2" />
+  <Episode Code="DS9" Season="02" Episode="12" Ordinal="032" Title="The Alternate" Stardate="47352.1" />
+  <Episode Code="DS9" Season="02" Episode="13" Ordinal="033" Title="Armageddon Game" Stardate="47444.8" />
+  <Episode Code="DS9" Season="02" Episode="14" Ordinal="034" Title="Whispers" Stardate="47581.2" />
+  <Episode Code="DS9" Season="02" Episode="15" Ordinal="035" Title="Paradise" Stardate="47573.1" />
+  <Episode Code="DS9" Season="02" Episode="16" Ordinal="036" Title="Shadowplay" Stardate="47603.3" />
+  <Episode Code="DS9" Season="02" Episode="17" Ordinal="037" Title="Playing God" Stardate="47678.3" />
+  <Episode Code="DS9" Season="02" Episode="18" Ordinal="038" Title="Profit and Loss" Stardate="47701.5" />
+  <Episode Code="DS9" Season="02" Episode="19" Ordinal="039" Title="Blood Oath" Stardate="47789.8" />
+  <Episode Code="DS9" Season="02" Episode="20" Ordinal="040" Title="The Maquis, Part I" Stardate="47802.3" />
+  <Episode Code="DS9" Season="02" Episode="21" Ordinal="041" Title="The Maquis, Part II" Stardate="47805.1" />
+  <Episode Code="DS9" Season="02" Episode="22" Ordinal="042" Title="The Wire" Stardate="47849.8" />
+  <Episode Code="DS9" Season="02" Episode="23" Ordinal="043" Title="Crossover" Stardate="47879.2" />
+  <Episode Code="DS9" Season="02" Episode="24" Ordinal="044" Title="The Collaborator" Stardate="47921.5" />
+  <Episode Code="DS9" Season="02" Episode="25" Ordinal="045" Title="Tribunal" Stardate="47944.2" />
+  <Episode Code="DS9" Season="02" Episode="26" Ordinal="046" Title="The Jem'Hadar" Stardate="47987.5" />
+  <Episode Code="DS9" Season="03" Episode="01" Ordinal="047" Title="The Search, Part I" Stardate="48213.1" />
+  <Episode Code="DS9" Season="03" Episode="02" Ordinal="048" Title="The Search, Part II" Stardate="48213.1" />
+  <Episode Code="DS9" Season="03" Episode="03" Ordinal="049" Title="The House of Quark" Stardate="48224.2" />
+  <Episode Code="DS9" Season="03" Episode="04" Ordinal="050" Title="Equilibrium" Stardate="48231.7" />
+  <Episode Code="DS9" Season="03" Episode="05" Ordinal="051" Title="Second Skin" Stardate="48244.5" />
+  <Episode Code="DS9" Season="03" Episode="06" Ordinal="052" Title="The Abandoned" Stardate="48301.1" />
+  <Episode Code="DS9" Season="03" Episode="07" Ordinal="053" Title="Civil Defense" Stardate="48388.8" />
+  <Episode Code="DS9" Season="03" Episode="08" Ordinal="054" Title="Meridian" Stardate="48423.2" />
+  <Episode Code="DS9" Season="03" Episode="09" Ordinal="055" Title="Defiant" Stardate="48467.3" />
+  <Episode Code="DS9" Season="03" Episode="10" Ordinal="056" Title="Fascination" Stardate="48441.6" />
+  <Episode Code="DS9" Season="03" Episode="11" Ordinal="057" Title="Past Tense, Part I" Stardate="48481.2" />
+  <Episode Code="DS9" Season="03" Episode="12" Ordinal="058" Title="Past Tense, Part II" Stardate="48481.2" />
+  <Episode Code="DS9" Season="03" Episode="13" Ordinal="059" Title="Life Support" Stardate="48498.4" />
+  <Episode Code="DS9" Season="03" Episode="14" Ordinal="060" Title="Heart of Stone" Stardate="48521.5" />
+  <Episode Code="DS9" Season="03" Episode="15" Ordinal="061" Title="Destiny" Stardate="48543.2" />
+  <Episode Code="DS9" Season="03" Episode="16" Ordinal="062" Title="Prophet Motive" Stardate="48555.5" />
+  <Episode Code="DS9" Season="03" Episode="17" Ordinal="063" Title="Visionary" Stardate="48576.7" />
+  <Episode Code="DS9" Season="03" Episode="18" Ordinal="064" Title="Distant Voices" Stardate="48592.2" />
+  <Episode Code="DS9" Season="03" Episode="19" Ordinal="065" Title="Through the Looking Glass" Stardate="48601.1" />
+  <Episode Code="DS9" Season="03" Episode="20" Ordinal="066" Title="Improbable Cause" Stardate="48620.3" />
+  <Episode Code="DS9" Season="03" Episode="21" Ordinal="067" Title="The Die is Cast" Stardate="48622.5" />
+  <Episode Code="DS9" Season="03" Episode="22" Ordinal="068" Title="Explorers" Stardate="48699.9" />
+  <Episode Code="DS9" Season="03" Episode="23" Ordinal="069" Title="Family Business" Stardate="48731.2" />
+  <Episode Code="DS9" Season="03" Episode="24" Ordinal="070" Title="Shakaar" Stardate="48764.8" />
+  <Episode Code="DS9" Season="03" Episode="25" Ordinal="071" Title="Facets" Stardate="48959.1" />
+  <Episode Code="DS9" Season="03" Episode="26" Ordinal="072" Title="The Adversary" Stardate="48962.5" />
+  <Episode Code="DS9" Season="04" Episode="01" Ordinal="073" Title="The Way of the Warrior Part 1" Stardate="49011.4" />
+  <Episode Code="DS9" Season="04" Episode="02" Ordinal="074" Title="The Way of the Warrior Part 2" Stardate="49011.4" />
+  <Episode Code="DS9" Season="04" Episode="03" Ordinal="075" Title="The Visitor" Stardate="49037.7" />
+  <Episode Code="DS9" Season="04" Episode="04" Ordinal="076" Title="Hippocratic Oath" Stardate="49066.5" />
+  <Episode Code="DS9" Season="04" Episode="05" Ordinal="077" Title="Indiscretion" Stardate="49122.4" />
+  <Episode Code="DS9" Season="04" Episode="06" Ordinal="078" Title="Rejoined" Stardate="49195.5" />
+  <Episode Code="DS9" Season="04" Episode="07" Ordinal="079" Title="Starship Down" Stardate="49263.5" />
+  <Episode Code="DS9" Season="04" Episode="08" Ordinal="080" Title="Little Green Men" Stardate="49201.3" />
+  <Episode Code="DS9" Season="04" Episode="09" Ordinal="081" Title="The Sword of Kahless" Stardate="49263.5" />
+  <Episode Code="DS9" Season="04" Episode="10" Ordinal="082" Title="Our Man Bashir" Stardate="49300.7" />
+  <Episode Code="DS9" Season="04" Episode="11" Ordinal="083" Title="Homefront" Stardate="49370" />
+  <Episode Code="DS9" Season="04" Episode="12" Ordinal="084" Title="Paradise Lost" Stardate="49482.3" />
+  <Episode Code="DS9" Season="04" Episode="13" Ordinal="085" Title="Crossfire" Stardate="49517.3" />
+  <Episode Code="DS9" Season="04" Episode="14" Ordinal="086" Title="Return to Grace" Stardate="49534.2" />
+  <Episode Code="DS9" Season="04" Episode="15" Ordinal="087" Title="Sons of Mogh" Stardate="49556.2" />
+  <Episode Code="DS9" Season="04" Episode="16" Ordinal="088" Title="Bar Association" Stardate="49565.1" />
+  <Episode Code="DS9" Season="04" Episode="17" Ordinal="089" Title="Accession" Stardate="49600.7" />
+  <Episode Code="DS9" Season="04" Episode="18" Ordinal="090" Title="Rules of Engagement" Stardate="49665.3" />
+  <Episode Code="DS9" Season="04" Episode="19" Ordinal="091" Title="Hard Time" Stardate="49680.5" />
+  <Episode Code="DS9" Season="04" Episode="20" Ordinal="092" Title="Shattered Mirror" Stardate="49699.1" />
+  <Episode Code="DS9" Season="04" Episode="21" Ordinal="093" Title="The Muse" Stardate="49702.2" />
+  <Episode Code="DS9" Season="04" Episode="22" Ordinal="094" Title="For the Cause" Stardate="49729.8" />
+  <Episode Code="DS9" Season="04" Episode="23" Ordinal="095" Title="To the Death" Stardate="49904.2" />
+  <Episode Code="DS9" Season="04" Episode="24" Ordinal="096" Title="The Quickening" Stardate="49909.7" />
+  <Episode Code="DS9" Season="04" Episode="25" Ordinal="097" Title="Body Parts" Stardate="49930.3" />
+  <Episode Code="DS9" Season="04" Episode="26" Ordinal="098" Title="Broken Link" Stardate="49962.4" />
+  <Episode Code="DS9" Season="05" Episode="01" Ordinal="099" Title="Apocalypse Rising" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="02" Ordinal="100" Title="The Ship" Stardate="50049.3" />
+  <Episode Code="DS9" Season="05" Episode="03" Ordinal="101" Title="Looking for par'Mach in All the Wrong Places" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="04" Ordinal="102" Title="...Nor the Battle to the Strong" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="05" Ordinal="103" Title="The Assignment" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="06" Ordinal="104" Title="Trials and Tribble-ations" Stardate="4523.7" />
+  <Episode Code="DS9" Season="05" Episode="07" Ordinal="105" Title="Let He Who Is Without Sin..." Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="08" Ordinal="106" Title="Things Past" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="09" Ordinal="107" Title="The Ascent" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="10" Ordinal="108" Title="Rapture" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="11" Ordinal="109" Title="The Darkness and the Light" Stardate="50416.2" />
+  <Episode Code="DS9" Season="05" Episode="12" Ordinal="110" Title="The Begotten" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="13" Ordinal="111" Title="For the Uniform" Stardate="50485.2" />
+  <Episode Code="DS9" Season="05" Episode="14" Ordinal="112" Title="In Purgatory's Shadow" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="15" Ordinal="113" Title="By Inferno's Light" Stardate="50564.2" />
+  <Episode Code="DS9" Season="05" Episode="16" Ordinal="114" Title="Doctor Bashir, I Presume?" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="17" Ordinal="115" Title="A Simple Investigation" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="18" Ordinal="116" Title="Business as Usual" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="19" Ordinal="117" Title="Ties of Blood and Water" Stardate="50712.5" />
+  <Episode Code="DS9" Season="05" Episode="20" Ordinal="118" Title="Ferengi Love Songs" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="21" Ordinal="119" Title="Soldiers of the Empire" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="22" Ordinal="120" Title="Children of Time" Stardate="50814.2" />
+  <Episode Code="DS9" Season="05" Episode="23" Ordinal="121" Title="Blaze of Glory" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="24" Ordinal="122" Title="Empok Nor" Stardate="Unknown" />
+  <Episode Code="DS9" Season="05" Episode="25" Ordinal="123" Title="In the Cards" Stardate="50929.4" />
+  <Episode Code="DS9" Season="05" Episode="26" Ordinal="124" Title="Call to Arms" Stardate="50975.2" />
+  <Episode Code="DS9" Season="06" Episode="01" Ordinal="125" Title="A Time to Stand" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="02" Ordinal="126" Title="Rocks and Shoals" Stardate="51107.2" />
+  <Episode Code="DS9" Season="06" Episode="03" Ordinal="127" Title="Sons and Daughters" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="04" Ordinal="128" Title="Behind the Lines" Stardate="51149.5" />
+  <Episode Code="DS9" Season="06" Episode="05" Ordinal="129" Title="Favor the Bold" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="06" Ordinal="130" Title="Sacrifice of Angels" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="07" Ordinal="131" Title="You are Cordially Invited..." Stardate="51247.5" />
+  <Episode Code="DS9" Season="06" Episode="08" Ordinal="132" Title="Resurrection" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="09" Ordinal="133" Title="Statistical Probabilities" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="10" Ordinal="134" Title="The Magnificent Ferengi" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="11" Ordinal="135" Title="Waltz" Stardate="51413.6" />
+  <Episode Code="DS9" Season="06" Episode="12" Ordinal="136" Title="Who Mourns for Morn?" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="13" Ordinal="137" Title="Far Beyond the Stars" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="14" Ordinal="138" Title="One Little Ship" Stardate="51474.2" />
+  <Episode Code="DS9" Season="06" Episode="15" Ordinal="139" Title="Honor Among Thieves" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="16" Ordinal="140" Title="Change of Heart" Stardate="51597.2" />
+  <Episode Code="DS9" Season="06" Episode="17" Ordinal="141" Title="Wrongs Darker Than Death or Night" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="18" Ordinal="142" Title="Inquisition" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="19" Ordinal="143" Title="In the Pale Moonlight" Stardate="51721.3" />
+  <Episode Code="DS9" Season="06" Episode="20" Ordinal="144" Title="His Way" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="21" Ordinal="145" Title="The Reckoning" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="22" Ordinal="146" Title="Valiant" Stardate="51825.4" />
+  <Episode Code="DS9" Season="06" Episode="23" Ordinal="147" Title="Profit and Lace" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="24" Ordinal="148" Title="Time's Orphan" Stardate="Unknown" />
+  <Episode Code="DS9" Season="06" Episode="25" Ordinal="149" Title="The Sound of Her Voice" Stardate="51948.3" />
+  <Episode Code="DS9" Season="06" Episode="26" Ordinal="150" Title="Tears of the Prophets" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="01" Ordinal="151" Title="Image in the Sand" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="02" Ordinal="152" Title="Shadows and Symbols" Stardate="52152.6" />
+  <Episode Code="DS9" Season="07" Episode="03" Ordinal="153" Title="Afterimage" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="04" Ordinal="154" Title="Take Me Out to the Holosuite" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="05" Ordinal="155" Title="Chrysalis" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="06" Ordinal="156" Title="Treachery, Faith, and the Great River" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="07" Ordinal="157" Title="Once More Unto the Breach" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="08" Ordinal="158" Title="The Siege of AR-558" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="09" Ordinal="159" Title="Covenant" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="10" Ordinal="160" Title="It's Only a Paper Moon" Stardate="52235.7" />
+  <Episode Code="DS9" Season="07" Episode="11" Ordinal="161" Title="Prodigal Daughter" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="12" Ordinal="162" Title="The Emperor's New Cloak" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="13" Ordinal="163" Title="Field of Fire" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="14" Ordinal="164" Title="Chimera" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="15" Ordinal="165" Title="Badda-Bing Badda-Bang" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="16" Ordinal="166" Title="Inter Arma Enim Silent Leges" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="17" Ordinal="167" Title="Penumbra" Stardate="52576.2" />
+  <Episode Code="DS9" Season="07" Episode="18" Ordinal="168" Title="'Til Death Do Us Part" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="19" Ordinal="169" Title="Strange Bedfellows" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="20" Ordinal="170" Title="The Changing Face of Evil" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="21" Ordinal="171" Title="When It Rains…" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="22" Ordinal="172" Title="Tacking Into the Wind" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="23" Ordinal="173" Title="Extreme Measures" Stardate="52645.7" />
+  <Episode Code="DS9" Season="07" Episode="24" Ordinal="174" Title="The Dogs of War" Stardate="52861.3" />
+  <Episode Code="DS9" Season="07" Episode="25" Ordinal="175" Title="What You Leave Behind Part 1" Stardate="Unknown" />
+  <Episode Code="DS9" Season="07" Episode="26" Ordinal="176" Title="What You Leave Behind Part 2" Stardate="Unknown" />
+  
+</StarTrek>
