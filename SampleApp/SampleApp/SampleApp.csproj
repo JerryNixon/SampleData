@@ -138,6 +138,12 @@
     <Folder Include="Models\" />
     <Folder Include="Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SampleData\SampleData\SampleData.csproj">
+      <Project>{20e513f4-e42f-4cc3-b7af-9d5c2750bcf6}</Project>
+      <Name>SampleData</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

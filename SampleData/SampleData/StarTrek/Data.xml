@@ -1,4 +1,5 @@
-﻿<StarTrek>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StarTrek>
 
   <Show Name="Star Trek: Original" Hero="Hero.jpg" Image="Ship.jpg" Code="TOS">
     <Character Name="Captain Kirk" Actor="William Shatner" Image="Kirk.jpg" />

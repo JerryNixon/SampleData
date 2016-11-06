@@ -46,6 +46,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
+    <GenerateLibraryLayout>false</GenerateLibraryLayout>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <PlatformTarget>x86</PlatformTarget>
@@ -107,18 +108,19 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StarTrek\DataSource.cs" />
     <Compile Include="StarTrek\Models\Character.cs" />
     <Compile Include="StarTrek\Models\CodesEnum.cs" />
+    <Compile Include="StarTrek\Models\Episode.cs" />
+    <Compile Include="StarTrek\Models\Season.cs" />
     <Compile Include="StarTrek\Models\Show.cs" />
     <Compile Include="StarTrek\Models\Xml.cs" />
     <EmbeddedResource Include="Properties\SampleData.rd.xml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="StarTrek\Data.xml" />
+    <EmbeddedResource Include="StarTrek\Data.xml" />
     <Content Include="StarTrek\Images\ANI\Cast\Bones.jpg" />
     <Content Include="StarTrek\Images\ANI\Hero.jpg" />
     <Content Include="StarTrek\Images\ANI\Cast\Kirk.jpg" />
